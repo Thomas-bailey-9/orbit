@@ -1,6 +1,6 @@
 # Build status
 
-**Current batch:** B01 — first-car 3D asset feasibility (research complete, **BLOCKED**, awaiting owner decision)
+**Current batch:** B01 — first-car 3D asset feasibility (4 Series and replacement check complete, **BLOCKED**, awaiting owner decision)
 **Previous:** B00 — Foundation and design-check preview (complete, **approved**)
 **Preview:** https://tbaileyportfolio.co.uk/orbit/ (https://thomas-bailey-9.github.io/orbit/ redirects here — see Known limitations)
 
@@ -15,6 +15,13 @@
 - Nothing purchased, no sellers contacted, no asset files downloaded into the repository. The B00 preview is unchanged.
 - Network: this session now uses a personal `orbit` cloud environment (preview hosts, Sketchfab, RenderHub, FlippedNormals, Superhive, Creative Commons, BMW UK).
 - Decision needed: see "Smallest decision to proceed" in ASSET_REGISTER.md.
+
+## B01 replacement check (2026-11-17)
+- Screened all eight other shortlist cars on Sketchfab and examined three in detail; two paid alternatives noted. Details in ASSET_REGISTER.md.
+- Best asset: **solid3ddd "2023 BMW 3 Series"** (G20 LCI 320i xDrive, CC BY, credible authorship, high detail). It fails the vehicle match because BMW UK now sells the **G50** 3 Series.
+- Current-generation alternatives are NonCommercial, ripped, provenance-unknown, or sold under licences that require protected delivery and forbid a public repository (CGTrader §21A, Sketchfab §2.2).
+- BMW UK, Mercedes UK and CGTrader block automated access in places. BMW pages load in a headless browser; Mercedes UK and CGTrader listings do not.
+- Network: `orbit` environment extended with TurboSquid, CGTrader, Hum3D, Mercedes UK and Porsche hosts.
 
 ## B00 approval
 Approved by the owner on 2026-11-17. Keep as approved — do not redesign:

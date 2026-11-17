@@ -52,3 +52,37 @@ Status values: `unverified` · `in-review` · `verified` · `rejected`.
 |---|---|---|---|
 | Manrope variable font (latin) | `src/styles/fonts/manrope-latin-wght-normal.woff2` | SIL OFL 1.1 (`src/styles/fonts/OFL.txt`) | verified |
 | ORBIT mark / wordmark | `public/assets/branding/orbit-mark.svg`, `src/components/navigation/OrbitWordmark.tsx` | Original to this project | verified |
+
+## B01 (continued) — replacement-car check (2026-11-17)
+
+**Outcome: BLOCKED — no candidate meets every requirement.** One near-miss (A1) is ready for an owner decision.
+
+### Screening (Sketchfab downloadable search, all eight shortlist cars)
+- **Discarded:** NonCommercial licences; uploads stating they were ripped from games; generic "repository" accounts; and identical face counts under different usernames, which indicate re-uploads of one unknown source (e.g. 253,890 / 489,304 / 373,640 / 369,603 / 1,222,429 faces each appear twice).
+- **No usable free leads found for:** X3 (G45), 911 Carrera (992.2; only GT3/GT3 R/Dakar variants), Macan Electric, CLE Coupé, GLC (X254), or Taycan with clear provenance.
+
+### Detailed candidates
+Key: **[F]** verified from the listing, API or official page · **[S]** stated by the creator or seller · **[?]** unknown. No 3D file was downloaded or inspected.
+
+| # | Candidate | Vehicle identity | Licence: public site / public repo | Quality evidence | Verdict |
+|---|---|---|---|---|---|
+| A1 | [2023 BMW 3 Series](https://sketchfab.com/3d-models/2023-bmw-3-series-82534fdddd7e46e4bdb202d6c1d3c0e7), solid3ddd (Sketchfab, free) | "2023 BMW 320i xDrive base model" **[S]**: G20 LCI saloon, non-M Sport bumpers **[F, thumbnail]**. UK trim match unconfirmed **[?]**. | CC BY 4.0 **[F]**. Site: allowed with attribution. Repo: allowed (CC BY permits redistribution). Provenance credible: creator's own description, a derivative police variant, non-collapsed .blend "included in additional files" **[F]**. BMW trademarks are not covered by any model licence. | 2,693,212 tris / 1.38M verts **[F]**, full interior and opening doors **[F, thumbnail]**. Body, LCI headlights, wheels and glass look convincing in the thumbnail **[F]**. Paint/headlight material separation, file size and textures unknown **[?]**. Needs heavy mobile optimisation (decimation, interior removal or LOD, Draco/Meshopt). | **Fails vehicle match:** BMW UK's 3 Series Saloon page is now **"BMW 3 Series Saloon (G50)"** **[F]**, so the G20 is the previous generation. |
+| A2 | [Mercedes C-class W206 (free)](https://www.cgtrader.com/free-3d-models/car/luxury-car/mercedes-c-class-w206), CGTrader | W206 **[S, search snippet]**; year/trim **[?]** | CGTrader Royalty Free **[S]**. Site: only as an "Incorporated Product" with "commercially reasonable measures to prevent the end user from gaining access", e.g. encryption (§21A.2–21A.3) **[F, terms]**. Repo: raw file **not** allowed. Provenance **[?]**. | glTF and .blend (~178 MB) **[S]** | Unresolved: listing page blocked (CloudFront), provenance and identity unknown. |
+| A3 | [Mercedes-Benz C-Class W206 AMG-Line 2022](https://sketchfab.com/3d-models/mercedes-benz-c-class-w206-amg-line-2022-21393b5f402543848db2f26f95a2e9fa), ceron_alex (Sketchfab, free) | W206 AMG Line 2022 **[S]** | CC BY-NC **[F]**: NonCommercial unresolved for a portfolio-linked site. No provenance statement. | 1,436,926 tris **[F]** | Rejected: NC plus unknown provenance. |
+
+Also rejected: [Mercedes-Benz W206 C220](https://sketchfab.com/3d-models/mercedes-benz-w206-c220-c0ef31daf7cf4a8bada4b56005c19e83) (description: "The 3D model was ripped from a BeamNG.drive"), and Sketchfab "Free Standard" models. Free Standard falls under the Sketchfab Store agreement, whose §2.2(b) forbids distributing in a way that lets third parties "download, extract or access" the file.
+
+### Paid alternatives (not purchased, sellers not contacted)
+| # | Listing | Price / licence | Public site | Public repo | Notes |
+|---|---|---|---|---|---|
+| P1 | [Mercedes-Benz C-class AMG-line 2021](https://www.cgtrader.com/3d-models/car/car/mercedes-benz-c-class-amg-line-2021), CGTrader | US$129, Royalty Free **[S, search snippet]** | Possible as an Incorporated Product with an encrypted or proprietary asset file (§21A.3). **Unresolved**: encrypted GLB delivery would need written confirmation from the seller or CGTrader. | Not allowed (raw files) | Naming matches Hum3D's catalogue **[?]**. Pre-facelift W206; current UK status unconfirmed because Mercedes UK blocks automated access. Formats: 3ds Max, Blender, OBJ… **[S]**. |
+| P2 | [BMW M440i Coupe 2021](https://sketchfab.com/3d-models/bmw-m440i-coupe-2021-2a23733103914d749e4c6b0352fb834c), SQUIR3D (Sketchfab Store) | US$169, Editorial **[F]** | Not allowed (editorial-only) | Not allowed | Kept for reference only. |
+
+### Licence summary (verified terms)
+- **CC BY 4.0:** public interactive site ✓ and public repository ✓, with attribution. Trademarks are not licensed.
+- **Sketchfab Store (Standard / Free Standard / Editorial):** browser-extractable delivery ✗ (§2.2(b)); Editorial ✗ for promotional use (§2.3). Source: https://sketchfab.com/licenses
+- **CGTrader Royalty Free:** interactive use ✓ only as a protected Incorporated Product (§21A.2–3); public repository ✗; buyer responsible for trademark clearance (§20.3). Source: https://www.cgtrader.com/pages/terms-and-conditions
+
+### Smallest decision to proceed (owner)
+1. **Accept A1 as the first car, as the previous-generation 3 Series:** 2023 BMW 320i (G20 LCI) with G20 data only. The destination becomes a clearly labelled BMW UK range page (G50) or an approved-used listing, to be verified. Next step: download and inspect the file, which needs a free Sketchfab account API token.
+2. **Allow a private-asset route:** keep model files out of the public repository and deliver an encrypted or proprietary asset, so a paid Royalty Free model (e.g. P1, US$129) becomes possible. Needs a budget decision plus seller confirmation of web delivery, and the owner should check the current UK C-Class page manually.
