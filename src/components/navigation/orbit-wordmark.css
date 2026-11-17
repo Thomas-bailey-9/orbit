@@ -1,0 +1,30 @@
+.orbit-wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: calc(var(--tracking-wordmark) * 0.95);
+  font-weight: var(--weight-medium);
+  line-height: 1;
+  white-space: nowrap;
+}
+.orbit-wordmark--sm { font-size: 1.125rem; }
+.orbit-wordmark--md { font-size: 1.5rem; }
+.orbit-wordmark--lg { font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem); }
+.orbit-wordmark--xl { font-size: clamp(2.5rem, 1.5rem + 4.5vw, 4.75rem); }
+
+.orbit-mark {
+  width: 0.86em;
+  height: 0.86em;
+  flex: none;
+  /* Optical alignment with the cap height of the letters */
+  transform: translateY(-0.005em);
+}
+
+.orbit-wordmark__letters {
+  letter-spacing: var(--tracking-wordmark);
+  /* Trailing tracking would unbalance centring */
+  margin-right: calc(var(--tracking-wordmark) * -1);
+  background: linear-gradient(180deg, #f6f7f9 0%, #d9dde1 55%, #a9afb5 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,58 @@
+/* Manrope variable (200–800), SIL Open Font License 1.1 — see ./fonts/OFL.txt */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url('./fonts/manrope-latin-wght-normal.woff2') format('woff2-variations'),
+    url('./fonts/manrope-latin-wght-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+    U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.t-display,
+.t-h1,
+.t-h2,
+.t-h3 {
+  margin: 0;
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+  text-wrap: balance;
+}
+.t-display { font-size: var(--text-display); line-height: var(--leading-tight); letter-spacing: var(--tracking-display); }
+.t-h1 { font-size: var(--text-h1); line-height: var(--leading-tight); letter-spacing: var(--tracking-heading); }
+.t-h2 { font-size: var(--text-h2); line-height: var(--leading-snug); letter-spacing: var(--tracking-heading); }
+.t-h3 { font-size: var(--text-h3); line-height: var(--leading-snug); letter-spacing: var(--tracking-heading); }
+
+.t-body { font-size: var(--text-body); line-height: var(--leading-body); }
+.t-lead { font-size: 1.125rem; line-height: var(--leading-snug); color: var(--color-text-muted); }
+.t-small { font-size: var(--text-small); line-height: 1.45; color: var(--color-text-muted); }
+.t-label {
+  font-size: var(--text-label);
+  line-height: 1.3;
+  font-weight: var(--weight-medium);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+.t-caption { font-size: var(--text-label); line-height: 1.4; color: var(--color-text-subtle); }
+
+/* Numbers: aligned, light-to-regular weight */
+.t-num {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+.t-stat {
+  font-size: var(--text-stat);
+  font-weight: var(--weight-regular);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+.t-tagline {
+  font-weight: var(--weight-regular);
+  letter-spacing: 0.16em;
+  color: var(--color-text-muted);
+}

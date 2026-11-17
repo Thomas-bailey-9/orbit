@@ -1,0 +1,18 @@
+.anim-value {
+  display: inline-grid;
+  justify-items: start;
+}
+.anim-value__ghost,
+.anim-value__live {
+  grid-area: 1 / 1;
+  white-space: nowrap;
+}
+.anim-value__ghost { visibility: hidden; }
+
+.stat { display: grid; gap: var(--space-1); min-width: 0; }
+.stat--center { justify-items: center; text-align: center; }
+.stat__value { display: flex; align-items: baseline; gap: 0.3em; min-height: 1.1em; color: var(--color-text); }
+.stat__unit { font-size: 0.55em; font-weight: var(--weight-regular); color: var(--color-text-muted); letter-spacing: 0; }
+.stat__unavailable { align-self: center; font-size: var(--text-body); color: var(--color-text-muted); }
+.stat__label { font-size: var(--text-small); color: var(--color-text-muted); }
+.stat__note { font-size: var(--text-label); color: var(--color-text-subtle); }

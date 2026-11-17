@@ -1,0 +1,27 @@
+# Build status
+
+**Current batch:** B00 — Foundation and design-check preview (complete, awaiting review)
+**Next batch:** awaiting instructions (plan: B01 one-car asset feasibility, or B02 opening)
+**Preview:** https://thomas-bailey-9.github.io/orbit/
+
+## B00 completed
+- Vite + React + TypeScript project, pinned versions, npm lockfile, base `/orbit/`.
+- Design tokens, Manrope typography (bundled, OFL), global studio styling, reduced-motion guard.
+- Shared primitives: GlassPanel, Button, IconButton, Toggle, Select, SwatchGroup, Icon set.
+- Static ORBIT wordmark + favicon mark.
+- Reusable CarCard with stable placeholder/image-failure fallback.
+- Animated values (count-up numbers and prices, typed text, StatValue) with reserved widths and accessible final values.
+- Typed car-data contract, three brand records, empty production catalogue.
+- Design-check screen (sections A–F) at the site root.
+- Docs set and GitHub Pages workflow.
+
+## Checks (B00)
+- `npm run build` (type check + production build): pass.
+- Playwright on the production build under `/orbit/`: no horizontal overflow at 360, 430, 820 and 1440px; no console errors or failed requests; font loads.
+- Keyboard: swatch arrow keys, toggle Space, select, visible focus ring. Touch: swatch and toggle taps. Minimum control target 44px.
+- Value animation mid-values, final values, replay, no layout shift, reduced motion shows final values immediately.
+
+## Known limitations
+- No production cars, photos, badges or 3D assets (see ASSET_REGISTER.md).
+- Design-check screen occupies the root until real screens exist.
+- Car-card Explore/Compare are disabled preview-only actions.
