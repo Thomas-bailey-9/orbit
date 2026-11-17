@@ -8,9 +8,17 @@ Exact model/generation/year/trim/powertrain and UK configuration · live officia
 ## Register
 | Asset ID | Car ID / exact version | Type | Source / author | Licence & permission evidence | File path | Size | Status | Checked on |
 |---|---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — | — | — |
+| T-g20-001 | **Test asset only, not a production car.** Listing identity: "Highpoly 3d model base on the 2023 BMW 320i xdrive base model" (title "2023 bmw 3 series"). Not mapped to any UK trim. | model3d | [solid3DDD](https://sketchfab.com/solid3ddd) on [Sketchfab](https://sketchfab.com/3d-models/2023-bmw-3-series-82534fdddd7e46e4bdb202d6c1d3c0e7) | CC BY 4.0 (see below). Authorship credible but **not proven** | Not in repo (evaluation copy outside the repository only) | Pending | in-review | 2026-11-17 |
 
-No asset has passed the gate. No candidate files were downloaded into the repository.
+No asset has passed the gate.
+
+### T-g20-001 licence record
+- Licence (Sketchfab API, 2026-11-17): **Creative Commons Attribution 4.0** — label "CC Attribution", URL http://creativecommons.org/licenses/by/4.0/, stated requirement "Author must be credited. Commercial use is allowed."
+- Published 2023-12-11 by `solid3ddd` (display name "solid3DDD").
+- Required attribution (CC BY 4.0 §3(a): creator, title, source link, licence link, and **indication of changes**):
+  > "2023 bmw 3 series" (https://sketchfab.com/3d-models/2023-bmw-3-series-82534fdddd7e46e4bdb202d6c1d3c0e7) by solid3DDD (https://sketchfab.com/solid3ddd), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified for ORBIT: [list changes, e.g. optimised geometry and materials].
+- Ownership: the creator's description and a derivative upload are *supporting evidence* of authorship only. CC BY grants no trademark rights (BMW names and badges).
+- Status: provisional technical test asset. Not approved for production; no current-generation specifications or prices may be attached. No candidate files were downloaded into the repository.
 
 ## B01 — BMW 4 Series Coupé feasibility (2026-11-17)
 
