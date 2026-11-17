@@ -1,8 +1,20 @@
 # Build status
 
-**Current batch:** B00 — Foundation and design-check preview (complete, **approved**)
-**Next batch:** B01 — one-car 3D asset feasibility (in preparation; not started)
+**Current batch:** B01 — first-car 3D asset feasibility (research complete, **BLOCKED**, awaiting owner decision)
+**Previous:** B00 — Foundation and design-check preview (complete, **approved**)
 **Preview:** https://tbaileyportfolio.co.uk/orbit/ (https://thomas-bailey-9.github.io/orbit/ redirects here — see Known limitations)
+
+## B01 result (2026-11-17)
+- Car: BMW 4 Series Coupé. Proposed exact vehicle: **420i M Sport Coupé, G22 LCI, UK 2026 model year**. The official UK page is live (see ASSET_REGISTER.md).
+- Outcome: **BLOCKED**. Three free Sketchfab candidates and two paid ones were assessed:
+  - The only cleanly licensed one (CC BY) is toy-grade.
+  - The good-looking ones are pre-facelift, NC-SA, with unverified provenance.
+  - The paid SQUIR3D model is Editorial-only (US$169).
+  - The RenderHub listing is gone.
+- Structural issue: store licences forbid browser-extractable files, which conflicts with GLB delivery and a public repository.
+- Nothing purchased, no sellers contacted, no asset files downloaded into the repository. The B00 preview is unchanged.
+- Network: this session now uses a personal `orbit` cloud environment (preview hosts, Sketchfab, RenderHub, FlippedNormals, Superhive, Creative Commons, BMW UK).
+- Decision needed: see "Smallest decision to proceed" in ASSET_REGISTER.md.
 
 ## B00 approval
 Approved by the owner on 2026-11-17. Keep as approved — do not redesign:
