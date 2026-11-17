@@ -40,4 +40,5 @@
 - 3D renderer and any animation library (decide in B01/B07).
 - 3D asset sources, permissions and budget (no purchase authority).
 - Brand badge artwork source and permission.
+- Hosting address: accept `tbaileyportfolio.co.uk/orbit/` (inherited custom domain) or choose another option later.
 - Router choice (B02/B03) and whether the design-check screen moves to a dev-only route.

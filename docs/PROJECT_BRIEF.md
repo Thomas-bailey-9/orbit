@@ -19,4 +19,4 @@ Alternate paths: Browse all cars, comparison, saved cars, shared model-and-colou
 No payments, accounts, enquiry forms, checkout, sound, "recently viewed", or automatic related-car recommendations. Official pages are destinations, not proof of stock.
 
 ## Hosting
-GitHub Pages from `Thomas-bailey-9/orbit` → https://thomas-bailey-9.github.io/orbit/ (noindex while unfinished). Separate from the owner's portfolio.
+GitHub Pages from `Thomas-bailey-9/orbit` (noindex while unfinished). Because the account's user Pages site uses a custom domain, the live address is https://tbaileyportfolio.co.uk/orbit/ (github.io redirects there). The code and repository remain separate from the portfolio.
