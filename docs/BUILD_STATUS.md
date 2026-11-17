@@ -1,8 +1,12 @@
 # Build status
 
-**Current batch:** B00 — Foundation and design-check preview (complete, awaiting review)
-**Next batch:** awaiting instructions (plan: B01 one-car asset feasibility, or B02 opening)
+**Current batch:** B00 — Foundation and design-check preview (complete, **approved**)
+**Next batch:** B01 — one-car 3D asset feasibility (in preparation; not started)
 **Preview:** https://tbaileyportfolio.co.uk/orbit/ (https://thomas-bailey-9.github.io/orbit/ redirects here — see Known limitations)
+
+## B00 approval
+Approved by the owner on 2026-11-17. Keep as approved — do not redesign:
+typography (Manrope), glass styling, icons, ORBIT wordmark, paint-selection treatment.
 
 ## B00 completed
 - Vite + React + TypeScript project, pinned versions, npm lockfile, base `/orbit/`.
